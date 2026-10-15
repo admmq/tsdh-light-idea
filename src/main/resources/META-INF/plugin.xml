@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>tsdh-light-theme</id>
+  <name>tsdh-light Theme</name>
+  <vendor>tsdh-light port</vendor>
+  <category>Theme</category>
+
+  <description><![CDATA[
+    A light theme and editor color scheme modelled on <b>tsdh-light</b>, the
+    theme by Tassilo Horn that ships with GNU Emacs: purple keywords, green
+    strings and doc comments, blue function names, golden types, saddle-brown
+    variables, a lightgoldenrod selection and a cyan matching-paren highlight.
+  ]]></description>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="tsdh-light" path="/themes/tsdh-light.theme.json" />
+  </extensions>
+</idea-plugin>

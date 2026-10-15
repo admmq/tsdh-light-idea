@@ -1,0 +1,50 @@
+{
+  "name": "tsdh-light",
+  "dark": false,
+  "author": "Port of the GNU Emacs tsdh-light theme by Tassilo Horn",
+  "parentTheme": "ExperimentalLightWithLightHeader",
+  "editorScheme": "/themes/tsdh-light.xml",
+
+  "colors": {
+    "Gray4": "#46474F",
+    "Gray5": "#56575E",
+    "Gray6": "#696A70",
+    "Gray7": "#7F7F7F",
+    "Gray8": "#A0A1A7",
+    "Gray9": "#C4C4C7",
+    "Gray10": "#D0D0D3",
+    "Gray11": "#DADADC",
+    "Gray12": "#E5E5E6",
+    "Gray13": "#F0F0F1",
+    "Gray14": "#FAFAFA",
+
+    "Blue1": "#015C83",
+    "Blue2": "#3A5FCD",
+    "Blue3": "#0175A8",
+    "Blue4": "#0184BC",
+    "Blue5": "#1F95C9",
+    "Blue6": "#3BA3D1",
+    "Blue7": "#67B8DC",
+    "Blue8": "#8CCAE5",
+    "Blue9": "#B0DBEE",
+    "Blue10": "#EEDC82",
+    "Blue11": "#FFEC8B",
+    "Blue12": "#FFF6C7",
+    "Blue13": "#FFFBE6"
+  },
+
+  "ui": {
+    "StatusBar": {
+      "borderColor": "#383A42"
+    },
+
+    "ToolTip": {
+      "background": "#FFFFE0",
+      "foreground": "#000000",
+      "infoForeground": "#7F7F7F",
+      "shortcutForeground": "#7F7F7F",
+      "linkForeground": "#3A5FCD",
+      "borderColor": "#A0A1A7"
+    }
+  }
+}
